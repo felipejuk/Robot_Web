@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-31T15:59:36.975162" rpa="false" schemaversion="5">
+<suite id="s1" name="Desafios" source="C:\Users\felipe.m.silva\Desktop\Pessoal\NOESIS_Curso\Robot_Web\Desafios\desafios.robot">
+<test id="s1-t1" name="Abrir Browser e preencher campos" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:37.293542" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>chrome</arg>
+<arg>options=add_argument("--start-maximazed")</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-31T15:59:37.293315" elapsed="3.414232"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>xpath://span[normalize-space()='For Selenium, Cypress &amp; Playwright']</arg>
+<arg>20</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2025-01-31T15:59:40.708075" elapsed="0.029625"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:40.738469" level="INFO">Clicking element '//input[@id='name']'.</msg>
+<arg>//input[@id='name']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:40.738208" elapsed="0.064600"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:40.803520" level="INFO">Typing text 'Felipe' into text field '//input[@id='name']'.</msg>
+<arg>//input[@id='name']</arg>
+<arg>Felipe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:40.803239" elapsed="0.067949"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:40.871714" level="INFO">Clicking element '//input[@id='email']'.</msg>
+<arg>//input[@id='email']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:40.871510" elapsed="0.064561"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:40.936735" level="INFO">Typing text 'teste@gmail.com' into text field '//input[@id='email']'.</msg>
+<arg>//input[@id='email']</arg>
+<arg>teste@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:40.936459" elapsed="0.068013"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.005226" level="INFO">Clicking element '//input[@id='email']'.</msg>
+<arg>//input[@id='email']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.004945" elapsed="0.080341"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.085831" level="INFO">Typing text '963 987 987' into text field '//input[@id='email']'.</msg>
+<arg>//input[@id='email']</arg>
+<arg>963 987 987</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.085612" elapsed="0.058753"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.145114" level="INFO">Clicking element '//textarea[@id='textarea']'.</msg>
+<arg>//textarea[@id='textarea']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.144841" elapsed="0.063433"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.209486" level="INFO">Typing text 'Rua do teste, 34' into text field '//textarea[@id='textarea']'.</msg>
+<arg>//textarea[@id='textarea']</arg>
+<arg>Rua do teste, 34</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.209071" elapsed="0.046050"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.255633" level="INFO">Selecting 'male' from radio button 'gender'.</msg>
+<arg>gender</arg>
+<arg>male</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.255459" elapsed="0.065692"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.321705" level="INFO">Selecting checkbox 'sunday'.</msg>
+<arg>sunday</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.321492" elapsed="0.071246"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.393556" level="INFO">Selecting checkbox 'saturday'.</msg>
+<arg>saturday</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.393221" elapsed="0.058043"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.451807" level="INFO">Clicking element '//select[@id='country']'.</msg>
+<arg>//select[@id='country']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.451596" elapsed="0.059056"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.511443" level="INFO">Selecting options from selection list '//select[@id='country']' by value brazil.</msg>
+<arg>//select[@id='country']</arg>
+<arg>brazil</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.511063" elapsed="0.062709"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.574364" level="INFO">Selecting options from selection list '//select[@id='colors']' by value red.</msg>
+<arg>//select[@id='colors']</arg>
+<arg>red</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.574111" elapsed="0.086530"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.661671" level="INFO">Selecting options from selection list '//select[@id='colors']' by value blue.</msg>
+<arg>//select[@id='colors']</arg>
+<arg>blue</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.661215" elapsed="0.054995"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:41.716957" level="INFO">Selecting options from selection list '//select[@id='colors']' by value yellow.</msg>
+<arg>//select[@id='colors']</arg>
+<arg>yellow</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.716742" elapsed="0.049611"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-31T15:59:43.767224" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-31T15:59:41.766704" elapsed="2.000642"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:43.767861" level="INFO">Selecting options from selection list '//select[@id='animals']' by value dog.</msg>
+<arg>//select[@id='animals']</arg>
+<arg>dog</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2025-01-31T15:59:43.767662" elapsed="0.052778"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:43.821117" level="INFO">Clicking element '//input[@id='datepicker']'.</msg>
+<arg>//input[@id='datepicker']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:43.820849" elapsed="0.068788"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:43.890394" level="INFO">Clicking element '//span[@class='ui-icon ui-icon-circle-triangle-e']'.</msg>
+<arg>${SD}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:43.890054" elapsed="0.063468"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-31T15:59:45.954662" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-31T15:59:43.953836" elapsed="2.001034"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:45.956119" level="INFO">Clicking element '//span[@class='ui-icon ui-icon-circle-triangle-e']'.</msg>
+<arg>${SD}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:45.955675" elapsed="0.054738"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-31T15:59:48.011138" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-31T15:59:46.010838" elapsed="2.000422"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:48.012517" level="INFO">Clicking element '//span[@class='ui-icon ui-icon-circle-triangle-e']'.</msg>
+<arg>${SD}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:48.012102" elapsed="0.042749"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-31T15:59:50.055868" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-31T15:59:48.055334" elapsed="2.000675"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-31T15:59:50.056576" level="INFO">Clicking element '//a[normalize-space()='15']'.</msg>
+<arg>//a[normalize-space()='15']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-31T15:59:50.056363" elapsed="0.058601"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-31T16:00:10.116223" level="INFO">Slept 20 seconds.</msg>
+<arg>20</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-31T15:59:50.115567" elapsed="20.000908"/>
+</kw>
+<status status="PASS" start="2025-01-31T15:59:37.292501" elapsed="32.825083"/>
+</test>
+<status status="PASS" start="2025-01-31T15:59:36.981064" elapsed="33.137716"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Desafios" id="s1" pass="1" fail="0" skip="0">Desafios</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

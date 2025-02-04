@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-30T16:56:26.310522" rpa="false" schemaversion="5">
+<suite id="s1" name="Start" source="C:\Users\felipe.m.silva\Desktop\Pessoal\NOESIS_Curso\Robot_Web\Start.robot">
+<test id="s1-t1" name="Analisando Variáveis" line="23">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${simples}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-30T16:56:26.637705" elapsed="0.000302"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Dias_da_semana[6]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-30T16:56:26.638234" elapsed="0.000505"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Cadastro .mae}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-30T16:56:26.638945" elapsed="0.000491"/>
+</kw>
+<tag>Var</tag>
+<status status="PASS" start="2025-01-30T16:56:26.636817" elapsed="0.002800"/>
+</test>
+<status status="PASS" start="2025-01-30T16:56:26.316193" elapsed="0.324166"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Var</stat>
+</tag>
+<suite>
+<stat name="Start" id="s1" pass="1" fail="0" skip="0">Start</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
